@@ -5,7 +5,9 @@ Schrijf in dit document de debriefing voor jouw MyBand project
 * Wat is volgens jou de opdracht?
 
 Project 'MyBand' is een individueel project waarin ik een website ga maken over een onderwerp naar keuze. Dit mag elk onderwerp zijn als er maar genoeg informatie over is.
+
 * Wat wordt er gevraagd?
+
 Alle inhoud komt uit een database. En de vereiste pagina's zijn: een homepage, informatiepagina's, agenda en zoekpagina + resultaten.
 
 
