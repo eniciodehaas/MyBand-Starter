@@ -34,10 +34,10 @@ Deze planning is een levend document (blijven aanpassen aan de werkelijke situat
 ##### WEEK 3
 |         | ma 20/5 | di 21/5 | wo 22/5 | do 23/5 | vr 24/5 | weekend |
 | ------ |------ | ---- | ------ |---- |------ |---- | 
-| 1ste uur | | | | | |  |
-| 2de uur  | | | | | |  |
-| 3de uur  | | | | | |  |
-| 4de uur  | | | | | |  |
+| 1ste uur | | | Werken aan MVC structuur | | navigatie |  |
+| 2de uur  | | | Werken aan MVC structuur | | navigatie |  |
+| 3de uur  | | | Database maken | | navigatie |  |
+| 4de uur  | | | Database maken | | navigatie |  |
 | 5de uur  | | | | | |  |
 | 6de uur  | | | | | |  |
 | 7de uur  | | | | | |  |
