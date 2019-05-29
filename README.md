@@ -1,6 +1,6 @@
-## Titel van jouw website
-www.mijnliveomgeving.com is een website van (..jouw naam..) waar gebruikers kunnen (..nut gebruiker..) bedoeld voor (..doelgroep..)
-De website is enigszins te vergelijken met (..concurrentie1..) of (..concurrentie2..) maar toch anders omdat (..uniek aspect..)
+## Xtravel
+Xtravel is een website van Enicio waar gebruikers informatie kunnen vinden over verschillende steden in Europa bedoeld voor iedereen die van reizen houdt.
+De website is enigszins te vergelijken met https://www.steden.net/ maar toch anders omdat het makkelijker te gebruiken is en er mooier uitziet.
 
 ### Uniek aan dit concept is: 
  * eerste u.s.p. (vul hier in, waarin jouw site anders is dan alle anderen)
