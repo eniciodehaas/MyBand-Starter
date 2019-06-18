@@ -1,0 +1,92 @@
+main {
+  position: absolute;
+  width: 100vw;
+  top: 150px;
+}
+
+.feestdagen {
+  margin: 100px auto;
+  width: 80vw;
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.feestdag {
+  border: 2px solid rgb(0,176,212);
+  width: 250px;
+  height: 500px;
+  background-color: #fff;
+}
+
+.feestdag .feestdagTitel {
+  text-align: center;
+  padding: 5px;
+}
+
+.feestdag .feestdagImg {
+  width: 250px;
+  border-top: 2px solid rgb(0,176,212);
+  border-bottom: 2px solid rgb(0,176,212);
+}
+
+.feestdag .feestdagP {
+  padding: 10px;
+  height: 255px;
+}
+
+.feestdag .feestdagDate {
+  position: relative;
+  text-align: center;
+  border-top: 2px solid rgb(0,176,212);
+  padding: 5px;
+}
+
+@media screen and (max-width: 800px) {
+  main {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 1480px) {
+  .feestdagen {
+    grid-template-columns: 1fr;
+  }
+  .feestdag {
+    width: 80vw;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 20vw 60vw;
+  }
+
+  .feestdagTitel {
+    grid-column: 1/2;
+    border-right: 2px solid rgb(0,176,212);
+  }
+
+  .feestdagImg {
+    box-sizing: border-box;
+    grid-column: 1/2;
+    width: 100% !important;
+    height: 125px;
+    object-fit: cover;
+    object-position: center;
+    border-right: 2px solid rgb(0,176,212);
+  }
+
+  .feestdagDate {
+    grid-column: 1/2;
+    border-top: none !important;
+    border-right: 2px solid rgb(0,176,212);
+}
+
+  .feestdagP {
+    box-sizing: border-box;
+    position: relative;
+    text-align: left;
+    padding: 25px !important;
+    grid-column: 2/3;
+    height: 200px !important;
+    grid-row: 1/4;
+  }
+}

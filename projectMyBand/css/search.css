@@ -1,0 +1,26 @@
+input {
+  position: absolute;
+  top: 220px;
+  left: 50%;
+  right: 50%;
+  transform: translateX(-50%);
+  height: 30px;
+  width: 220px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid rgba(0,176,212,1);
+  transition: width .25s ease,
+              border-color .25s ease,
+              font-size .25s ease,
+              border-radius .25s ease;
+  font-size: 15px;
+}
+
+input:focus {
+  width: 320px;
+  border-radius: 25px;
+  border-color: blue;
+  font-size: 20px;
+}
