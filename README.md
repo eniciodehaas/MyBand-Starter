@@ -24,14 +24,14 @@ Deze fase duurt 3 weken
 | Milestone  | Status | Link | Type Document of cloudservice |
 | ------ |  ------ | ------ | ------ |
 | README                                            | TODO | [README.md]  (dit document)          | MarkDown |
-| B1-K1-W1 Debriefing                               | TODO | [Debriefing]                         | Markdown |
+| B1-K1-W1 Debriefing                               | DONE | [Debriefing]                         | Markdown |
 | B1-K1-W2 Planning                                 | TODO | [Planning]                           | Markdown |
 | B1-K1-W2 Plan van aanpak                          | TODO | [Plan van Aanpak]                    | Markdown of Word/RTF|
 | B1-K1-W2 User stories                             | TODO | [User Stories]                       | Markdown of Word/RTF|
 | B1-K1-W2 Functioneel ontwerp                      | TODO | [FO]                                 | Markdown of Word/RTF|
 | B1-K1-W2 Flowchart                                | TODO | [Flow]                               | Afbeelding(en) of geexporteerd uit http://draw.io |
 | B1-K1-W2 Urenschatting                            | TODO | [Urenschatting]                      | Markdown |
-| B1-K1-W2 Wireframes en/of Interactief prototype   | TODO | [axShare]                            | Axshare link of link naar ander online prototype tool |
+| B1-K1-W2 Wireframes en/of Interactief prototype   | DONE | [Wireframes]                            | Axshare link of link naar ander online prototype tool |
 | B1-K1-W2 Sfeer impressie / schermontwerpen        | TODO | [Design]                             | Afbeeldingen |
 
 [Kwalificatiedossier]: https://kwalificaties.s-bb.nl/Handlers/DocumentLibrary.ashx?id=276758
@@ -44,7 +44,7 @@ Deze fase duurt 3 weken
 [FO]: </doc/fase-1/functioneel-ontwerp.md>
 [Flow]: <doc/fase-1/flow.svg>
 [Urenschatting]: <doc/fase-1/urenschatting.md>
-[axShare]: <http://w2d1bw.axshare.com/>
+[Wireframes]: <http://w2d1bw.axshare.com/>
 
 #### Fase 2: Realiseren van de opdracht (in sprints)
 
