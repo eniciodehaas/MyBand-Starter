@@ -1,4 +1,5 @@
 <?php
+
 function homepage() {
   $title = "Home | Xtravel";
   $style = "home.css";
@@ -31,10 +32,22 @@ function about() {
   include 'views/about.php';
 }
 
-function search($q) {
+function search() {
   $title = "Search | Xtravel";
   $style = "search.css";
+  $searchterm = filter_var($_GET['q'], FILTER_SANITIZE_STRING);
+  if (!empty($searchterm)) {
+  $results = search_database($searchterm);
+} else {
+  $results = [];
+}
   include 'views/search.php';
-  $zoekresultaten = zoeken($q);
+}
+
+function info() {
+  $alleInfo = alleInfo();
+  $style = "info.css";
+  $title = "Stad | Xtravel";
+  include 'views/info.php';
 }
 ?>

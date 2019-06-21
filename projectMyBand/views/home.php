@@ -8,12 +8,12 @@
     <div class="latest">
       <h2>Laatst toegevoegde stad</h2>
     </div>
-    <a href="#steden" class="scroll" id="scroll">&#129175;</a>
+    <div class="div-scroll"><a href="#steden" class="scroll" id="scroll">&#129175;</a></div>
     <div class="steden" id="steden">
       <?php foreach ($steden as $stad): ?>
         <div class="stad">
           <img class="stadImg" src="img/<?php echo $stad['image'] ?>" alt="<?php echo $stad['stad'] ?>">
-          <a href="#"><?php echo $stad['stad'] ?> <img src="img/airplane_icon.png" alt="icon" style="height: 1em; vertical-align: middle;"></a>
+          <a href="index.php?page=info&id=<?php echo $stad['id'] ?>"><?php echo $stad['stad'] ?> <img src="img/airplane_icon.png" alt="icon" style="height: 1em; vertical-align: middle;"></a>
         </div>
       <?php endforeach; ?>
     </div>

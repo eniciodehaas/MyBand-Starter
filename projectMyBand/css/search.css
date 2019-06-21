@@ -1,26 +1,135 @@
-input {
-  position: absolute;
-  top: 220px;
-  left: 50%;
-  right: 50%;
-  transform: translateX(-50%);
-  height: 30px;
-  width: 220px;
-  padding: 10px;
+main {
+  position: relative;
+  width: 100vw;
+  min-height: calc(100vh - 50px);
+}
+
+.search {
+  position: relative;
+  margin-top: 220px;
   text-align: center;
-  border-radius: 10px;
+}
+
+input, button {
+  text-align: center;
+  border-radius: 10px 10px 0 0;
   outline: none;
   border: 1px solid rgba(0,176,212,1);
   transition: width .25s ease,
               border-color .25s ease,
               font-size .25s ease,
               border-radius .25s ease;
+}
+
+input {
+  height: 30px;
+  width: 220px;
+  padding: 10px;
   font-size: 15px;
+}
+
+button {
+  margin-left: -5px;
+  width: 242px;
+  padding: 5px;
+  border-radius: 0 0 10px 10px;
+  background-color: rgba(0,176,212,1);
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgba(79, 144, 181, 1);
+  border-color: rgba(79, 144, 181, 1);
 }
 
 input:focus {
   width: 320px;
-  border-radius: 25px;
-  border-color: blue;
+  border-radius: 25px 25px 0 0;
   font-size: 20px;
+}
+
+input:focus ~ button {
+  width: 342px;
+  border-radius: 0 0 25px 25px;
+  font-size: 20px;
+}
+
+.aantal {
+  position: relative;
+  margin-top: 10px;
+}
+
+.results {
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  width: 100vw;
+  display: block;
+  text-align: center;
+}
+
+.result {
+  opacity: 0;
+  border: 1px solid rgba(0,176,212,1);
+  width: 220px;
+  margin: 1em auto;
+  text-transform: capitalize;
+  padding: 10px;
+  background-color: #fff;
+  -webkit-animation: fadeIn 1s ease forwards;
+  animation: fadeIn 1s ease forwards;
+}
+
+.result a {
+  position: relative;
+  color: #75B6FF;
+  text-decoration: none;
+}
+
+.result a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  height: 2px;
+  width: calc(100% - 35px);
+  bottom: -2px;
+  background-color: #75B6FF;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform .25s ease-in-out;
+}
+
+.result a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.result a img {
+  margin-left: 10px;
+  transition: transform .2s ease-out;
+}
+
+.result a:hover img {
+  transform: translateX(10px);
+}
+
+.result a:active img {
+  transform: translateX(40px);
+}
+
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@media screen and (max-width: 800px) {
+  .search {
+    margin-top: 320px;
+  }
 }

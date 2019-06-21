@@ -1,7 +1,8 @@
 main {
-  position: absolute;
+  position: relative;
   width: 100vw;
   margin-top: 230px;
+  min-height: calc(100vh - 230px - 50px);
 }
 
 .contact-text {

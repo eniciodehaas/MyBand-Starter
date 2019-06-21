@@ -1,0 +1,36 @@
+footer {
+  position: relative;
+  height: 60px;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+  font-size: .8em;
+  background: rgb(117,182,255); /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  rgba(117,182,255,1) 0%, rgba(117,182,255,1) 40%, rgba(0,176,212,1) 60%, rgba(0,176,212,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg,  rgba(117,182,255,1) 0%,rgba(117,182,255,1) 40%,rgba(0,176,212,1) 60%,rgba(0,176,212,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(170deg,  rgba(117,182,255,1) 0%,rgba(117,182,255,1) 40%,rgba(0,176,212,1) 60%,rgba(0,176,212,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75b6ff', endColorstr='#00b0d4',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer .github {
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 850px) {
+  footer {
+    grid-template-columns: 1fr !important;
+    height: 180px;
+  }
+}

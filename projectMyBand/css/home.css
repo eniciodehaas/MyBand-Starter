@@ -16,13 +16,14 @@ html {
   font-size: 1.7em;
   position: absolute;
   text-align: center;
-  top: 300px;
+  top: 260px;
   padding: 15px;
   width: 300px;
   margin-top: 16vh;
   margin-right: 50vw;
   margin-left: 50vw;
   transform: translate(-50%, -50%);
+  display: block;
 }
 
 .latest {
@@ -37,7 +38,7 @@ html {
 
 .latest h2 {
   display: inline;
-  font-size: 1.8em
+  font-size: 1.4em
 }
 
 .latest::before {
@@ -52,14 +53,6 @@ html {
   content: '\21A9';
   font-size: 2em;
   transform: rotate(-45deg) translate(-10px, 10px);
-}
-
-@media screen and (orientation: landscape) {
-  .inleiding {
-    top: 40vh;
-    margin-right: 70vw;
-    margin-left: 30vw;
-  }
 }
 
 /* OPMAAK VAN DE LANDEN DIV'S ========= */
@@ -95,7 +88,7 @@ html {
   height: 1em;
   text-decoration: none;
   color: #75B6FF;
-  font-size: 2em;
+  font-size: 1.7em;
   vertical-align: middle;
   text-transform: capitalize;
   margin: auto;
@@ -118,7 +111,7 @@ html {
   width: 75px;
   height: 100px;
   object-fit: cover;
-  object-position: left;
+  object-position: center;
   border-right: 2px solid rgb(0,176,212);
 }
 
@@ -127,7 +120,7 @@ html {
   position: absolute;
   left: 0;
   height: 2px;
-  width: calc(100% - 40px);
+  width: calc(100% - 35px);
   bottom: -2px;
   background-color: #75B6FF;
   transform: scaleX(0);
@@ -140,28 +133,15 @@ html {
   transform-origin: left;
 }
 
-@media screen and (orientation: landscape) {
-  .stad:first-of-type {
-    top: 55vh;
-    margin-right: 30vw;
-    margin-left: 70vw;
-  }
-
-  .latest {
-    top: 30vh;
-    margin-right: 30vw;
-    margin-left: 70vw;
-  }
-}
-
 /* knop scroll naar beneden */
 .scroll {
   animation: tik 5s infinite;
   position: absolute;
   top: 90vh;
-  margin-left: 50vw;
-  margin-right: 50vw;
-  transform: translateY(-100%);
+  display: block;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
   font-size: 5em;
   text-decoration: none;
   color: #111;
@@ -192,4 +172,24 @@ html {
   0%{transform: rotate(720deg) translateY(0);}
   60%{transform: rotate(0) translateY(0);}
   100%{transform: rotate(0) translateY(20px);}
+}
+
+@media screen and (orientation: landscape) {
+  .inleiding {
+    top: 40vh;
+    margin-right: 70vw;
+    margin-left: 30vw;
+  }
+
+  .stad:first-of-type {
+    top: 55vh;
+    margin-right: 30vw;
+    margin-left: 70vw;
+  }
+
+  .latest {
+    top: 30vh;
+    margin-right: 30vw;
+    margin-left: 70vw;
+  }
 }
