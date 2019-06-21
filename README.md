@@ -44,15 +44,15 @@ Deze fase duurt 3 weken
 [FO]: </doc/fase-1/functioneel-ontwerp.md>
 [Flow]: <doc/fase-1/flow.svg>
 [Urenschatting]: <doc/fase-1/urenschatting.md>
-[Wireframes]: <http://w2d1bw.axshare.com/>
+[Wireframes]: <https://xd.adobe.com/view/035c2b64-6fa3-4757-62bf-fd3e705dc37a-756d/>
 
 #### Fase 2: Realiseren van de opdracht (in sprints)
 
 | Milestone  | Status | Link |
 | ------ |  ------ | ------ |
-| B1-K1-W2 Product backlog                          | TODO | [Backlog]                            | Link naar Trello met Sprint planningen | |
-| B1-K1-W2 Sprint planning 1, 2 en 3                | TODO | [Trello] / [Trello Tips]             | Link naar Trello met Sprint planningen | |
-| B1-K1-W3 Technisch Ontwerp                        | TODO | [TO]                                 | Markdown of Word/RTF| |
+| B1-K1-W2 Product backlog                          | X | [Backlog]                            | Link naar Trello met Sprint planningen | |
+| B1-K1-W2 Sprint planning 1, 2 en 3                | X | [Trello] / [Trello Tips]             | Link naar Trello met Sprint planningen | |
+| B1-K1-W3 Technisch Ontwerp                        | X | [TO]                                 | Markdown of Word/RTF| |
 
 [Backlog]: </doc/fase-2/technisch-ontwerp.md>
 [TO]: </doc/fase-2/technisch-ontwerp.md>
@@ -64,8 +64,8 @@ Deze fase duurt 3 weken
 | Milestone  | Status | Link |
 | ------ |  ------ | ------ |
 | B1-K3-W2 Link naar de live omgeving                        |  TODO |  <https://mijnliveomgeving.com> |
-| B1-K3-W2 Gebruikersdocumentatie / instructie               |  TODO |  [Gebruikers documentatie] |
-| B1-K3-W3 Evaluatie                                         |  TODO |  [Evaluatie] |
+| B1-K3-W2 Gebruikersdocumentatie / instructie               |  X |  [Gebruikers documentatie] |
+| B1-K3-W3 Evaluatie                                         |  X |  [Evaluatie] |
 
 [Gebruikers documentatie]: <doc/fase-3/gebruikersdocumentatie.md>
 [Evaluatie]: <doc/fase-3/evaluatie.md>
