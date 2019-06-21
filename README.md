@@ -63,7 +63,7 @@ Deze fase duurt 3 weken
 
 | Milestone  | Status | Link |
 | ------ |  ------ | ------ |
-| B1-K3-W2 Link naar de live omgeving                        |  TODO |  <http://26388.hosts2.ma-cloud.nl/bewijzenmap/periode1.4/proj/myband/index.php?page=homepage> |
+| B1-K3-W2 Link naar de live omgeving                        |  DONE |  <http://26388.hosts2.ma-cloud.nl/bewijzenmap/periode1.4/proj/myband/index.php?page=homepage> |
 | B1-K3-W2 Gebruikersdocumentatie / instructie               |  X |  [Gebruikers documentatie] |
 | B1-K3-W3 Evaluatie                                         |  X |  [Evaluatie] |
 
