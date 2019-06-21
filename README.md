@@ -65,7 +65,7 @@ Deze fase duurt 3 weken
 | ------ |  ------ | ------ |
 | B1-K3-W2 Link naar de live omgeving                        |  DONE |  <http://26388.hosts2.ma-cloud.nl/bewijzenmap/periode1.4/proj/myband/index.php?page=homepage> |
 | B1-K3-W2 Gebruikersdocumentatie / instructie               |  X |  [Gebruikers documentatie] |
-| B1-K3-W3 Evaluatie                                         |  X |  [Evaluatie] |
+| B1-K3-W3 Evaluatie                                         |  KOMT LATER IN POST MORTEM |  [Evaluatie] |
 
 [Gebruikers documentatie]: <doc/fase-3/gebruikersdocumentatie.md>
 [Evaluatie]: <doc/fase-3/evaluatie.md>
