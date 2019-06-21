@@ -3,8 +3,8 @@ Xtravel is een website van Enicio waar gebruikers informatie kunnen vinden over 
 De website is enigszins te vergelijken met https://www.steden.net/ maar toch anders omdat het makkelijker te gebruiken is en er mooier uitziet.
 
 ### Uniek aan dit concept is: 
- * eerste u.s.p. (vul hier in, waarin jouw site anders is dan alle anderen)
- * tweede u.s.p. (vul hier in, waar jouw site door gaat opvallen, wat zal iedereen onthouden van jouw site?)
+ * De doelgroep is erg groot
+ * Alles werkt super makkelijk en alles is duidelijk
 
 ---
 #### Milestones 
@@ -23,16 +23,16 @@ Deze fase duurt 3 weken
 
 | Milestone  | Status | Link | Type Document of cloudservice |
 | ------ |  ------ | ------ | ------ |
-| README                                            | TODO | [README.md]  (dit document)          | MarkDown |
+| README                                            | DONE | [README.md]  (dit document)          | MarkDown |
 | B1-K1-W1 Debriefing                               | DONE | [Debriefing]                         | Markdown |
-| B1-K1-W2 Planning                                 | TODO | [Planning]                           | Markdown |
-| B1-K1-W2 Plan van aanpak                          | TODO | [Plan van Aanpak]                    | Markdown of Word/RTF|
-| B1-K1-W2 User stories                             | TODO | [User Stories]                       | Markdown of Word/RTF|
-| B1-K1-W2 Functioneel ontwerp                      | TODO | [FO]                                 | Markdown of Word/RTF|
+| B1-K1-W2 Planning                                 | X | [Planning]                           | Markdown |
+| B1-K1-W2 Plan van aanpak                          | X | [Plan van Aanpak]                    | Markdown of Word/RTF|
+| B1-K1-W2 User stories                             | X | [User Stories]                       | Markdown of Word/RTF|
+| B1-K1-W2 Functioneel ontwerp                      | X | [FO]                                 | Markdown of Word/RTF|
 | B1-K1-W2 Flowchart                                | TODO | [Flow]                               | Afbeelding(en) of geexporteerd uit http://draw.io |
-| B1-K1-W2 Urenschatting                            | TODO | [Urenschatting]                      | Markdown |
+| B1-K1-W2 Urenschatting                            | X | [Urenschatting]                      | Markdown |
 | B1-K1-W2 Wireframes en/of Interactief prototype   | DONE | [Wireframes]                            | Axshare link of link naar ander online prototype tool |
-| B1-K1-W2 Sfeer impressie / schermontwerpen        | TODO | [Design]                             | Afbeeldingen |
+| B1-K1-W2 Sfeer impressie / schermontwerpen        | X | [Design]                             | Afbeeldingen |
 
 [Kwalificatiedossier]: https://kwalificaties.s-bb.nl/Handlers/DocumentLibrary.ashx?id=276758
 [README.md]: <https://github.com/JouwGithubNaam/myband/blob/master/README.md>
