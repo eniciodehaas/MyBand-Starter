@@ -4,30 +4,30 @@ Zet hier je schermontwerpen en designs in met een korte omschrijving
 
 **Afbeelding 1**  
 Homepage
-![Afbeelding 1](home.jpg)
+![Homepage](home.JPG)
 ___
 
 **Afbeelding 2**  
 Agenda pagina
-![Afbeelding 1](agenda.jpg)
+![Agenda](agenda.JPG)
 ___
 
 **Afbeelding 3**  
-contact pagina
-![Afbeelding 1](contact.jpg)
+Contact pagina
+![Contact](contact.JPG)
 ___
 
 **Afbeelding 4**  
 About pagina
-![Afbeelding 1](about.jpg)
+![About](about.JPG)
 ___
 
 **Afbeelding 5**  
 Search pagina
-![Afbeelding 1](search.jpg)
+![Search](search.JPG)
 ___
 
 **Afbeelding 6**  
 Info pagina
-![Afbeelding 1](info.jpg)
+![Info](info.JPG)
 ___
