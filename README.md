@@ -3,7 +3,7 @@ Xtravel is een website van Enicio waar gebruikers informatie kunnen vinden over 
 De website is enigszins te vergelijken met https://www.steden.net/ maar toch anders omdat het makkelijker te gebruiken is en er mooier uitziet.
 
 ### Uniek aan dit concept is: 
- * De doelgroep is erg groot
+ * De site is toegankelijk voor veel mensen
  * Alles werkt super makkelijk en alles is duidelijk
 
 ---
