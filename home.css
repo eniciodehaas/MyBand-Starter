@@ -1,0 +1,201 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.bgi {
+  background-image: url('../img/background-01.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: .2;
+  height: 100vh;
+}
+
+.inleiding {
+  opacity: 1;
+  font-size: 1.7em;
+  position: absolute;
+  text-align: center;
+  top: 260px;
+  padding: 15px;
+  width: 300px;
+  margin-top: 16vh;
+  margin-right: 50vw;
+  margin-left: 50vw;
+  transform: translate(-50%, -50%);
+  display: block;
+}
+
+.latest {
+  position: absolute;
+  width: 355px;
+  top: 46vh;
+  margin-top: 20vh;
+  margin-right: 50vw;
+  margin-left: 50vw;
+  transform: translate(-50%, -50%);
+}
+
+.latest h2 {
+  display: inline;
+  font-size: 1.4em
+}
+
+.latest::before {
+  display: inline-block;
+  content: '\21AA';
+  transform: rotate(45deg) translate(10px, 10px);
+  font-size: 2em;
+}
+
+.latest::after {
+  display: inline-block;
+  content: '\21A9';
+  font-size: 2em;
+  transform: rotate(-45deg) translate(-10px, 10px);
+}
+
+/* OPMAAK VAN DE LANDEN DIV'S ========= */
+
+.steden {
+  margin: 50px;
+  display: grid;
+  grid-row-gap: 50px;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+.stad {
+  width: 300px;
+  height: 100px;
+  border: 2px solid rgb(0,176,212);
+  display: grid;
+  grid-template-columns: auto 1fr;
+  text-align: right;
+  background-color: #fff;
+}
+
+.stad:first-of-type {
+  position: absolute;
+  top: 70vh;
+  margin-right: 50vw;
+  margin-left: 50vw;
+  transform: translateX(-65%);
+}
+
+.stad a {
+  position: relative;
+  display: inline-block;
+  height: 1em;
+  text-decoration: none;
+  color: #75B6FF;
+  font-size: 1.7em;
+  vertical-align: middle;
+  text-transform: capitalize;
+  margin: auto;
+  margin-top: .9em;
+}
+
+.stad a img {
+  transition: transform .2s ease-out;
+}
+
+.stad a:hover img {
+  transform: translateX(10px);
+}
+
+.stad a:active img {
+  transform: translateX(40px);
+}
+
+.stad .stadImg {
+  width: 75px;
+  height: 100px;
+  object-fit: cover;
+  object-position: center;
+  border-right: 2px solid rgb(0,176,212);
+}
+
+.stad a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  height: 2px;
+  width: calc(100% - 35px);
+  bottom: -2px;
+  background-color: #75B6FF;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform .25s ease-in-out;
+}
+
+.stad a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+/* knop scroll naar beneden */
+.scroll {
+  animation: tik 5s infinite;
+  position: absolute;
+  top: 90vh;
+  display: block;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  font-size: 5em;
+  text-decoration: none;
+  color: #111;
+  transform-origin: center;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: #fff;
+  text-align: center;
+}
+
+.scroll svg {
+  position: absolute;
+  top: 5px;
+  left: 0;
+}
+
+.scroll:hover {
+  animation: hover 1.7s forwards;
+}
+
+.scroll-verberg {
+  display: none;
+}
+
+@keyframes tik {
+  0% {transform: translateY(0);}
+  90% {transform: translateY(0);}
+  95% {transform: translateY(-10px);}
+  100% {transform: translateY(0);}
+}
+
+@keyframes hover {
+  0%{transform: rotate(720deg) translateY(0);}
+  60%{transform: rotate(0) translateY(0);}
+  100%{transform: rotate(0) translateY(20px);}
+}
+
+@media screen and (orientation: landscape) {
+  .inleiding {
+    top: 40vh;
+    margin-right: 70vw;
+    margin-left: 30vw;
+  }
+
+  .stad:first-of-type {
+    top: 55vh;
+    margin-right: 30vw;
+    margin-left: 70vw;
+  }
+
+  .latest {
+    top: 30vh;
+    margin-right: 30vw;
+    margin-left: 70vw;
+  }
+}

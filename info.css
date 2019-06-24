@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #F0FFFF;
+}
+
+header img {
+  height: 75vh;
+  object-fit: cover;
+  object-position: center;
+  width: 100vw;
+  opacity: .6;
+}
+
+.onderaan {
+  height: 20vh;
+}
+
+.home {
+  top: 10px;
+  left: 10px;
+  border: 2px solid rgb(0,176,212);
+  padding: 10px;
+  height: 30px;
+  width: 100px;
+  display: block;
+  position: relative;
+  text-decoration: none;
+  color: #75B6FF;
+  font-size: 1.5em;
+  vertical-align: middle;
+  text-transform: capitalize;
+  background-color: #fff;
+  z-index: 1;
+}
+
+.home::after {
+  content: '';
+  position: absolute;
+  display: block;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transform: scale(0);
+  transform-origin: right bottom;
+  transition: transform 300ms ease-in-out;
+}
+
+.home:hover::after {
+  transform: scale(1);
+  transform-origin: left top;
+}
+
+.home img {
+  position: relative;
+  transform: scaleX(-1);
+  height: 30px;
+  margin-bottom: 4px;
+  margin-right: 5px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.scroll {
+  animation: tik 5s infinite;
+  position: absolute;
+  top: 90vh;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  font-size: 5em;
+  text-decoration: none;
+  color: #111;
+  transform-origin: center;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: #fff;
+  text-align: center;
+  border: 1px solid #111;
+}
+
+.scroll svg {
+  position: absolute;
+  top: 5px;
+  left: 0;
+}
+
+.scroll:hover {
+  animation: hover 1.7s forwards;
+}
+
+.scroll-verberg {
+  display: none;
+}
+
+@keyframes tik {
+  0% {transform: translateY(0);}
+  90% {transform: translateY(0);}
+  95% {transform: translateY(-10px);}
+  100% {transform: translateY(0);}
+}
+
+@keyframes hover {
+  0%{transform: rotate(720deg) translateY(0);}
+  60%{transform: rotate(0) translateY(0);}
+  100%{transform: rotate(0) translateY(20px);}
+}
+
+.text p {
+  padding: 5px 20vw;
+  font-size: 1.3em;
+}
+
+.bron {
+  margin: 30px 0 30px 20vw;
+  border: 1px solid rgb(0,176,212);
+  display: inline-block;
+  padding: 10px;
+  font-size: 1.2em;
+  background-color: #fff;
+}
+
+.bron a {
+  color: #75B6FF;
+  text-decoration: none;
+}
+
+.bron a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  font-size: 1em !important;
+}
