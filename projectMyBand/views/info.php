@@ -16,7 +16,11 @@
   <a class="home" href="index.php?page=homepage"><img src="img/airplane_icon.png" alt="icon" style="vertical-align: middle;">Home</a>
   <div class="onderaan">
     <h1>Welkom in <?php echo $info['stad'] ?>!</h1>
-    <a href="#text" class="scroll" id="scroll">&#129175;</a>
+    <a href="#text" class="scroll" id="scroll">
+      <svg width="60" height="60" xmlns="http://www.w3.org/2000/svg">
+        <path fill="none" stroke-width="6" stroke="black" d="M 25 20 H 12 L 30 38 L 48 20 H 35"/>
+      </svg>
+    </a>
   </div>
   <div class="text" id="text">
     <p><?php echo $info['tekst']; ?></p>

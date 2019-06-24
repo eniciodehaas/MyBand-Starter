@@ -8,7 +8,12 @@
     <div class="latest">
       <h2>Laatst toegevoegde stad</h2>
     </div>
-    <div class="div-scroll"><a href="#steden" class="scroll" id="scroll">&#129175;</a></div>
+    <div class="div-scroll">
+      <a href="#steden" class="scroll" id="scroll">
+        <svg width="60" height="60" xmlns="http://www.w3.org/2000/svg">
+          <path fill="none" stroke-width="6" stroke="black" d="M 25 20 H 12 L 30 38 L 48 20 H 35"/>
+        </svg>
+      </a></div>
     <div class="steden" id="steden">
       <?php foreach ($steden as $stad): ?>
         <div class="stad">
