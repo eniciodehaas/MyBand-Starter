@@ -94,6 +94,12 @@ h1 {
   border: 1px solid #111;
 }
 
+.scroll svg {
+  position: absolute;
+  top: 5px;
+  left: 0;
+}
+
 .scroll:hover {
   animation: hover 1.7s forwards;
 }

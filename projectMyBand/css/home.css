@@ -153,6 +153,12 @@ html {
   text-align: center;
 }
 
+.scroll svg {
+  position: absolute;
+  top: 5px;
+  left: 0;
+}
+
 .scroll:hover {
   animation: hover 1.7s forwards;
 }
